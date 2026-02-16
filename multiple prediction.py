@@ -35,15 +35,15 @@ if (selcted == "RidingMower"):
 
         ]])
  
-            if (Riding_pred[0] == 0):
+                if (Riding_pred[0] == 0):
 
-                Riding_pred = 'NonOwner'
+                    Riding_pred = 'NonOwner'
 
-            else:
+                else:
 
-                Riding_pred = 'Owner'
+                    Riding_pred = 'Owner'
  
-            st.success(Riding_pred)
+                st.success(Riding_pred)
  
     
 if(selcted == 'Loan'):
